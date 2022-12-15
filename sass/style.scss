@@ -1,0 +1,111 @@
+.container {
+  font-family: "Noto Serif", serif;
+  padding: 2em 5em;
+  
+  p {
+    color: #a79997;
+  }
+
+  button {
+    width: 200px;
+    height: 60px;
+    background: #ff715b;
+    color: white;
+    border: none;
+    font-size: 18px;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    img {
+      width: 174px;
+      height: 45px;
+    }
+
+    ul {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      li {
+        margin: 0 2em;
+      }
+    }
+    .account {
+      display: flex;
+      align-items: center;
+      p {
+        margin-left: 0.7em;
+      }
+      hr {
+        width: 1em;
+        transform: rotate(90deg);
+      }
+      img {
+        width: 18.64px;
+        height: 20px;
+        margin-left: 0.7em;
+      }
+    }
+  }
+  .banner {
+    background-image: url(/images/hero-banner\ 2.png);
+    background-size: cover;
+    background-repeat: round;
+    .banner_title {
+      h1 {
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 112px;
+      }
+    }
+    .volume {
+      display: flex;
+      align-items: center;
+      max-width: 300px;
+      hr {
+        width: 100px;
+        height: 2px;
+        background-color: rgb(155, 155, 155);
+        border: 0.1px;
+        border-radius: 70px;
+      }
+
+      h4 {
+        font-size: 1.8em;
+        color: #ff715b;
+      }
+    }
+
+    .search {
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 850px;
+      padding: 0 2em 0 2em;
+      box-shadow: 0px 10px 30px 5px rgba(219, 200, 197, 0.2);
+      color: #ff715b;
+    }
+  }
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    .box {
+      margin-top: 40px;
+      padding: 10px;
+      text-align: center;
+      background-color: #f8f8f8;
+      p {
+        color: #a79997;
+      }
+    }
+  }
+  .more {
+    .more_title {
+      max-width: 250px;
+    }
+    display: flex;
+    justify-content: space-between;
+  }
+}
